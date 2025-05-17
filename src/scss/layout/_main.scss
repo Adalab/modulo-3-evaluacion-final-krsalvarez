@@ -87,11 +87,17 @@
     object-fit: contain;
 }
 
+.no-result-div {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
 .no-result {
     color: #c8d955;
     font-size: 1.2rem;
     margin-top: 20px;
-    text-align: center;
   }
 
   .back {

@@ -69,9 +69,11 @@ function App() {
             {filteredCharacters.length > 0 ? (
                 <CharacterList users={filteredCharacters} />
             ) : (
-                <p className="no-result">
+
+                <div className="no-result-div"><p className="no-result">
                     No hay ningún personaje que coincida con la palabra "{filterName}"
                 </p>
+                <img src="https://i.imgur.com/UKa6hST.png" className="no-person-img"/></div>
             )}
             </>
 
